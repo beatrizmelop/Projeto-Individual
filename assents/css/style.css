@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15,15,15);
+}
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+li{
+    color: blueviolet;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+img{
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.about h2{
+    color: blueviolet;
+}
+
+.about p{
+    color: #A9A9A9;
+    padding: 5px;
+}
+
+.detalhes h2{
+    color: blueviolet;
+    padding: 5px;
+}
+.detalhes p{
+    color: #A9A9A9;
+    padding: 5px;
+}
+.footer h2{
+    color: blueviolet;
+    padding: 5px;
+}
+
+form{
+    display:inline-block;
+    position: relative;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 180px;
+}
+
+.form input{
+    background-color: rgba(61, 61, 61, 0.486);
+    width: 200px;
+    height: 32px;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px
+}
