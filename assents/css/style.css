@@ -8,54 +8,62 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    background-color: rgb(22, 22, 22);
+    text-align: left;
+    background-color: #FFFFF0;
 }
 
 header{
-    height: 10vh;
+    height: 17vw;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(15,15,15);
+    background-color: #FFFFF0;
+    box-shadow: 0 0 0.5rem;
 }
+
 ul{
     display: flex;
     margin: 23px;
+    padding: 2px;  
 }
 
 li{
-    color: blueviolet;
+    color: #793301;
     list-style: none;
     cursor: pointer;
     padding-left: 2rem;
+    font-size: 20px;
 }
 
 img{
-    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
     padding: 5px;
     cursor: pointer;
+    
 }
 
 .about h2{
-    color: blueviolet;
+    color: #793301;
+    padding: 20px;
+    font-size: 30px;
 }
 
 .about p{
-    color: #A9A9A9;
+    color: #612903;
     padding: 5px;
+    font-size: 19px;
 }
 
 .detalhes h2{
-    color: blueviolet;
-    padding: 5px;
+    color: #793301;
+    padding: 20px;
+    font-size: 30px;
 }
 .detalhes p{
-    color: #A9A9A9;
+    color: 612903;
     padding: 5px;
-}
-.footer h2{
-    color: blueviolet;
-    padding: 5px;
+    font-size: 19px;
 }
 
 form{
@@ -63,20 +71,22 @@ form{
     position: relative;
     border-radius: 3px;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 50px;
     border-radius: 5px;
     margin: 10px;
     width: 300px;
     height: 180px;
+    color: #793301;
+    font-size: 20px;
 }
 
 .form input{
-    background-color: rgba(61, 61, 61, 0.486);
+    background-color: rgba(158, 157, 157, 0.212);
     width: 200px;
     height: 32px;
     border-radius: 8px;
-    -webkit-box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 5px 3px 0px rgba(0, 0, 0, 0.116);
+    -moz-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 5px 0px rgba(0, 0, 0, 0.315);
     margin-bottom: 10px
 }
