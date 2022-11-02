@@ -117,3 +117,9 @@ form{
 .voltar p{
     padding: 2rem;
 }
+@media screen and (min-width:708px){
+    header{
+        height: 17vw;
+        justify-content: center;
+    }
+}
