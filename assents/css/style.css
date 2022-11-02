@@ -97,3 +97,6 @@ form{
     box-shadow: -1px 7px 5px 0px rgba(0, 0, 0, 0.315);
     margin-bottom: 10px
 }
+.voltar p{
+    padding: 2rem;
+}
