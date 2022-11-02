@@ -45,7 +45,7 @@ img{
 
 .about h2{
     color: #793301;
-    padding: 20px;
+    padding: 80px;
     font-size: 30px;
 }
 
@@ -57,7 +57,7 @@ img{
 
 .detalhes h2{
     color: #793301;
-    padding: 20px;
+    padding: 80px;
     font-size: 30px;
 }
 .detalhes p{
@@ -68,7 +68,7 @@ img{
 }
 .contato h2{
     color: #793301;
-    padding: 20px;
+    padding: 80px;
     font-size: 30px;
     cursor: pointer;
 }
