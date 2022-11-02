@@ -11,9 +11,6 @@ body{
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
     background-color: #FFFFF0;
-    min-width: 280px;
-    max-width: 2560px;
-    margin: auto;
 }
 
 header{
