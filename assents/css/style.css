@@ -65,6 +65,12 @@ img{
     padding: 5px;
     font-size: 19px;
 }
+.contato h2{
+    color: #793301;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
 
 form{
     display:inline-block;
