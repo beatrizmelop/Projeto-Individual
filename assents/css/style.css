@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -16,7 +17,7 @@ header{
     height: 17vw;
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFF0;
+    background-color: #DCDCDC;
     box-shadow: 0 0 0.5rem;
 }
 
@@ -24,6 +25,7 @@ ul{
     display: flex;
     margin: 23px;
     padding: 2px;  
+    
 }
 
 li{
@@ -32,6 +34,7 @@ li{
     cursor: pointer;
     padding-left: 2rem;
     font-size: 20px;
+    
 }
 
 img{
@@ -51,8 +54,9 @@ img{
 
 .about p{
     color: #612903;
-    padding: 5px;
+    padding: 10px;
     font-size: 19px;
+    margin-left: 2rem;
 }
 
 .detalhes h2{
@@ -62,15 +66,23 @@ img{
 }
 .detalhes p{
     color: 612903;
-    padding: 5px;
+    padding: 10px;
     font-size: 19px;
     color: #612903;
+    margin-left: 2rem;
 }
 .contato h2{
     color: #793301;
-    padding: 80px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 20px;
     cursor: pointer;
+    margin-left: 2rem;
+}
+
+.contato img{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 2rem;
 }
 
 form{
