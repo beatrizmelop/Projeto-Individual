@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     background-color: #DCDCDC;
     box-shadow: 0 0 0.5rem;
+    padding: 0 10%;
 }
 
 ul{
@@ -117,9 +118,9 @@ form{
 .voltar p{
     padding: 2rem;
 }
-@media screen and (min-width:708px){
-    header{
-        height: 17vw;
-        justify-content: center;
-    }
+@media (max-width:600){
+    body{
+        display:inline-block;
+    position: relative;
+    };
 }
